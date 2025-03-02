@@ -1,0 +1,4 @@
+name: BedWars1058-NickHider
+version: '${project.version}'
+main: me.parsa.nickhider.NickHider
+softdepend: [BedWars1058]
