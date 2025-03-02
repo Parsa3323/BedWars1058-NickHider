@@ -43,7 +43,7 @@ public final class NickHider extends JavaPlugin {
         Bukkit.getLogger().severe("Registering events");
         PluginManager pm = getServer().getPluginManager();
         pm.registerEvents(new NickListener(), this);
-        Bukkit.getLogger().severe("Done");
+        Bukkit.getLogger().severe("Done");//.
     }
 
     private boolean setupVault() {
